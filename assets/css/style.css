@@ -1,0 +1,301 @@
+/*
+	27/08/2017
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+
+#header {
+	background-color: #F8F8F8;
+	padding: 2.5% 2% 2.5% 2%;
+	box-shadow: 0px 9px 11px #8E8B82;
+	width: 100%;
+}
+
+.title a {
+	font-family: Coolveticarg;
+	font-size: 25px;
+	color: #222222;
+	text-decoration: none;
+}
+
+.title a:hover {
+	color: #C02727;
+	transition: 5s;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#search {
+	margin: 5% 0 0 0;
+}
+
+#search input {
+	background-color: transparent;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 1px solid #222222;
+	padding: 10px;
+	color: #222222;
+	font-family: sans-serif;
+	width: 50%;
+}
+
+
+#search button {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 1px solid #222222;
+	font-family: ReitamRegular;
+	background-color: transparent;
+	padding: 10px;
+	min-width: 10%;
+	max-width: 30%;
+}
+
+
+#content {
+	margin: 5% 0 0 0;
+	font-family: ReitamRegular;
+}
+
+.filmbox {
+	padding: 20px;
+	color: #222222;
+	font-family: ReitamRegular;
+	background-color: transparent;
+	margin: 0 0 10% 0;
+	box-shadow: 0px 9px 11px #8E8B82;
+	height: 200px;
+}
+
+.post-tag {
+	font-family: Coolveticarg;
+	color: #222222;
+	padding: 10px;
+	padding: 1% 0 0 0;
+}
+
+
+.filmbox a,#categpry a,.post-tag a {
+	text-decoration: none;
+	color: #8FBAF3;
+}
+
+.filmbox a:hover,#category a:hover,.post-tag a:hover {
+	text-decoration: none;
+	color: #0245A3;
+	transition: 1s;
+}
+
+#post-content {
+	margin: 2% 0 0 0;
+}
+
+.post {
+	background-color: #F8F8F8;
+	color: #222222;
+	box-shadow: 0px 9px 11px #8E8B82;
+	width: 100%;
+	padding: 10px;
+	font-family: ReitamRegular;
+	margin: 0 0 4% 0;
+}
+
+.post-attribute {
+	padding: 10px;
+	margin: 1% 0 1% 0;
+	color: #222222;
+	font-family: ReitamRegular;
+	background-color: #F8F8F8;
+}
+
+.post-attribute a {
+	text-decoration: none;
+	color: #8FBAF3;
+}
+
+.post-attribute a:hover {
+	text-decoration: none;
+	color: #0245A3;
+	transition: 1s;
+}
+
+
+.post-description {
+	box-shadow: 0px 9px 11px #8E8B82;
+	font-family: CaviarDreams;
+	font-weight: bold;
+	color: #222222;
+	padding: 15px;
+	margin: 1% 0 3% 0;
+	background-color: #F8FCFB;
+	color: #222222;
+	border-left: 2px solid #222222;
+}
+
+#category {
+	margin: 2% 0 2% 0;
+	width: 100%;
+	font-family: ReitamRegular;
+}
+
+#adminboxheader {
+	margin: 5% 0 0 0;
+	font-family: Coolveticarg;
+	font-size: 25px;
+	color: #222222;
+}
+
+#adminbox {
+	margin: 2% 0 0 0;
+}
+
+#adminboxfooter {
+	margin: 15% 0 0 0;
+	font-family: Coolveticarg;
+	color: #222222;
+	text-decoration: none;
+}
+
+.adminformlogin {
+	padding: 10px;
+	box-shadow: 0px 9px 11px #8E8B82;
+	font-family: sans-serif;
+	color: #222222;
+	padding: 15px;
+	background-color: #F8FCFB;
+	color: #222222;
+}
+
+.adminformlogin input {
+	margin: 1% 0 0 0;
+	border: none;
+	border-bottom: 2px solid #222222;
+	background-color: transparent;
+	padding: 10px;
+	width: 100%; 
+	font-family: CaviarDreams;
+}
+
+#admindashboardbox {
+	margin: 5% 0 5% 0;
+}
+
+.admindashboardmenu {
+	padding: 10px;
+	font-family: CaviarDreams;
+	color: #222222;
+	padding: 15px;
+	width: 100%;
+	background-color: #F8F8F8;
+	font-weight: bold;
+	color: #222222;
+	border-left: 3px solid #222222;
+	margin: 0 0 3% 0;
+}
+
+.admindashboardmenu a, .admindashboardmenu a:hover {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+.admindashboard {
+	padding: 10px;
+	box-shadow: 0px 9px 11px #8E8B82;
+	font-family: sans-serif;
+	color: #222222;
+	padding: 15px;
+	width: 100%;
+	background-color: #F8FCFB;
+	color: #222222;
+}
+
+.admindashboard input[type=text], .admindashboard textarea {
+	margin: 1% 0 0 0;
+	border: none;
+	border-bottom: 2px solid #222222;
+	background-color: transparent;
+	padding: 10px;
+	width: 100%; 
+	font-family: CaviarDreams;
+}
+
+.admindashboard select {
+	margin: 1% 0 0 0;
+	border: none;
+	border-bottom: 2px solid #222222;
+	background-color: transparent;
+	padding: 10px;
+	width: 100%; 
+	font-family: CaviarDreams;
+}
+
+.admindashboard input[type=file] {
+	color: #222222;
+	margin: 1% 0 0 0;
+	border: none;
+	background-color: transparent;
+	padding: 0 0 5px 0;
+	width: 100%; 
+	font-family: CaviarDreams;
+}
+
+.admindashboardUploadField--header {
+	border-bottom: 2px dashed #222222;
+	margin: 0 0 2% 0;
+	padding: 0 0 3px 0;
+}
+
+.admindashboardUploadField {
+	margin: 3% 0 0 0;
+	padding: 10px;
+	border-left: 2px solid #222222;
+	width: 100%;
+	font-family: CaviarDreams;
+	font-weight: bold;
+}
+
+.admindashboardUploadField--desc {
+	font-size: 10px;
+	padding: 1% 0 0 0;
+}
+
+#footer {
+	padding: 2%;
+	background-color: #F8F8F8;
+	box-shadow: 5px 0px 26px #8E8B82;
+	width: 100%;
+}
+
+.footertitle a {
+	font-family: Coolveticarg;
+	font-size: 15px;
+	color: #222222;
+	text-decoration: none;
+}
+
+.footertitle a:hover {
+	color: #C02727;
+	transition: 5s;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
