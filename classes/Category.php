@@ -1,7 +1,7 @@
 <?php
 
 	class Category {
-		private $Mysqli, $sql, $arr, $data, $key, $value, $page;
+		private $Mysqli, $sql, $arr, $key, $value, $page;
 
 		public function __construct()
         {
